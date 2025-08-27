@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos & Alejandra | 02 Mayo 2026</title>
+
+    <!-- Preload crítico -->
+    <link rel="preload" href="styles/tailwind.css" as="style" />
+    <link rel="preload" href="styles/main.css" as="style" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+      as="style"
+    />
+
+    <!-- Fuentes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/tailwind.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Decoraciones de gerberas -->
+    <div class="gerbera gerbera-1"></div>
+    <div class="gerbera gerbera-2"></div>
+    <div class="gerbera gerbera-3"></div>
+    <div class="gerbera gerbera-4"></div>
+
+    <!-- Navegación -->
+    <nav class="nav">
+      <div class="container">
+        <a href="#" class="logo">C & A</a>
+        <div class="nav-links">
+          <a href="#details">Detalles</a>
+          <a href="#gallery">Galería</a>
+          <a href="#rsvp">Confirmar</a>
+          <a href="#gifts">Regalos</a>
+        </div>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+        <p class="hero-subtitle">Con la bendición de Dios y nuestros padres</p>
+        <h1 class="hero-title">Carlos & Alejandra</h1>
+        <div class="divider"></div>
+        <p class="hero-date">02 de Mayo, 2026</p>
+        <p class="hero-subtitle">
+          ¡Queremos compartir este día especial contigo!
+        </p>
+        <a href="#details" class="scroll-down">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Nuestra Boda</h2>
+          <div class="divider-small"></div>
+          <p>Un día para celebrar el amor y la unión</p>
+        </div>
+
+        <div class="details-grid">
+          <div class="detail-card" data-aos="fade-right" data-aos-delay="200">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Fecha y Hora</h3>
+            <p>Sábado, 02 de Mayo de 2026</p>
+            <p>4:30 de la tarde</p>
+            <p>Ceremonia y recepción</p>
+          </div>
+
+          <div class="detail-card" data-aos="fade-left" data-aos-delay="200">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Lugar</h3>
+            <p>Hacienda San Miguel</p>
+            <p>Singuilucan, Hidalgo</p>
+            <p>Un lugar lleno de encanto y historia</p>
+            <a
+              href="https://goo.gl/maps/example"
+              target="_blank"
+              class="btn-map"
+            >
+              Ver en Google Maps
+            </a>
+          </div>
+
+          <div class="detail-card" data-aos="fade-right" data-aos-delay="300">
+            <i class="fas fa-tshirt"></i>
+            <h3>Dress Code</h3>
+            <p>Formal elegante</p>
+            <p>
+              Damas: Vestido largo o cocktail en tonos terracota, rosas o
+              neutros
+            </p>
+            <p>Caballeros: Traje en tonos beige, gris o azul oscuro</p>
+          </div>
+
+          <div class="detail-card" data-aos="fade-left" data-aos-delay="300">
+            <i class="fas fa-heart"></i>
+            <h3>Nuestros Deseos</h3>
+            <p>Soñamos con una celebración íntima y especial</p>
+            <p>Deseamos que seas parte de este momento único</p>
+            <p>¡Confirmamos por favor tu asistencia!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Nuestra Historia</h2>
+          <div class="divider-small"></div>
+          <p>Un viaje de amor que merece ser celebrado</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/images/photo1.jpg" alt="Nuestro primer día" />
+            <div class="gallery-overlay">
+              <span>Nuestro inicio</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/images/photo2.jpg" alt="Aventuras juntos" />
+            <div class="gallery-overlay">
+              <span>Aventuras</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/images/photo3.jpg" alt="El momento del sí" />
+            <div class="gallery-overlay">
+              <span>El sí</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/images/photo4.jpg" alt="Preparativos" />
+            <div class="gallery-overlay">
+              <span>Preparativos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+      <div class="container">
+        <h3 data-aos="fade-up">Faltan</h3>
+        <div class="countdown-grid" data-aos="fade-up" data-aos-delay="200">
+          <div class="countdown-item">
+            <div id="days">00</div>
+            <div>Días</div>
+          </div>
+          <div class="countdown-item">
+            <div id="hours">00</div>
+            <div>Horas</div>
+          </div>
+          <div class="countdown-item">
+            <div id="minutes">00</div>
+            <div>Minutos</div>
+          </div>
+          <div class="countdown-item">
+            <div id="seconds">00</div>
+            <div>Segundos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Confirma tu asistencia</h2>
+          <div class="divider-small"></div>
+        </div>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Para nosotros es muy importante contar con tu presencia en este día
+          tan especial. Por favor, confirma tu asistencia antes del 15 de Abril
+          de 2026 para poder organizar cada detalle con amor.
+        </p>
+        <a
+          href="https://wa.me/5211234567890?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20tu%20boda.%20Estoy%20muy%20feliz%20por%20ustedes."
+          class="btn-rsvp"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          Confirmar por WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Gifts Section -->
+    <section id="gifts" class="section gifts-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Mesa de Regalos</h2>
+          <div class="divider-small"></div>
+        </div>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Tu presencia es el regalo más valioso que podríamos recibir. Sin
+          embargo, si deseas obsequiarnos algo más, agradeceremos infinitamente
+          tu contribución para nuestro futuro juntos.
+        </p>
+        <div class="gifts-grid">
+          <div class="gift-card" data-aos="fade-right" data-aos-delay="200">
+            <i class="fas fa-money-bill-wave"></i>
+            <h3>Transferencia Bancaria</h3>
+            <p>Banco: BBVA</p>
+            <p>Nombre: Carlos Arturo Ortiz Vázquez</p>
+            <p>Cuenta: 1234 5678 9012 3456</p>
+            <p>CLABE: 012 180 12345678901 2</p>
+          </div>
+          <div class="gift-card" data-aos="fade-left" data-aos-delay="200">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Sobres en la Mesa de Regalos</h3>
+            <p>
+              Puedes entregar tu regalo en efectivo el día de la boda en la mesa
+              de regalos.
+            </p>
+            <p>¡Agradecemos mucho tu generosidad!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>Con la bendición de nuestros padres y la alegría de nuestro amor</p>
+        <h3>Carlos & Alejandra</h3>
+        <p>02 de Mayo, 2026</p>
+        <p>Singuilucan, Hidalgo</p>
+        <div class="footer-divider">
+          <p>
+            "El mejor regalo es tu presencia, pero si deseas obsequiarnos algo,
+            agradeceremos mucho tu aportación para nuestra luna de miel y
+            nuestro futuro juntos."
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
